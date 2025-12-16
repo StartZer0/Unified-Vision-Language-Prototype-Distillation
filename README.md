@@ -1,10 +1,10 @@
 # Unified Vision Language Prototype Distillation (UVLP)
 
-A novel framework for dataset distillation that extends Vision-Language Category Prototype (VLCP) with Joint Vision-Language Clustering (JVL-C) for improved prototype selection and synthesis.
+A novel framework for dataset distillation that extends Vision-Language Category Prototype (VLCP)(Zou et al., 2025) work approach of using image and text descriptions for prototype selection and synthesis.
 
 ## Overview
 
-This repository implements Unified Vision Language Prototype Distillation, which improves upon the baseline VLCP method by:
+This repository, Unified Vision-Language Prototype Distillation, contains the code implementation of the master’s research project titled “Dataset Distillation via Fused Vision-Language Prototypes,” which proposes a framework to fuse image and text descriptions to discover prototypes for dataset distillation:
 
 1. **Joint Vision-Language Clustering (JVL-C)**: Fuses CLIP image and text embeddings in a shared spherical space for more semantically coherent clustering
 2. **Adaptive Alpha Optimization**: Per-cluster optimization of the vision-language fusion weight using Fisher-style objectives
@@ -123,7 +123,7 @@ Unified-Vision-Language-Prototype-Distillation/
 
 ## Datasets
 
-This framework supports the following datasets:ImageWoof, ImageNette, ImageIDC
+This framework supports the following datasets: ImageWoof, ImageNette, ImageIDC
 
 
 ### Data Preparation
@@ -189,27 +189,6 @@ Results on ImageWoof with IPC 10 (0.8% ratio) across different test architecture
 | ResNetAP-10 | 29.4 ± 0.8 | 22.1 ± 0.1 | 32.0 ± 0.3 | 34.7 ± 0.5 | 30.3 ± 1.2 | 32.9 ± 0.9 | 36.2 ± 3.2 | 33.2 ± 2.1 | *36.6 ± 0.2* | **37.7 ± 0.3** | 87.5 ± 0.5 |
 | ResNet-18 | 27.7 ± 0.9 | 21.1 ± 0.4 | 30.2 ± 1.2 | 34.7 ± 0.4 | 33.4 ± 0.7 | 31.7 ± 0.8 | 35.7 ± 1.6 | 32.3 ± 1.2 | *35.9 ± 0.3* | **36.0 ± 0.4** | 89.3 ± 1.2 |
 
-## Citation
-
-If you use this code, please cite:
-
-```bibtex
-@article{uvlp2024,
-  title={Unified Vision Language Prototype Distillation},
-  author={},
-  year={2024}
-}
-```
-
-Also cite the baseline VLCP work:
-
-```bibtex
-@article{vlcp2024,
-  title={Dataset Distillation via Vision-Language Category Prototype},
-  author={},
-  year={2024}
-}
-```
 
 ## Acknowledgments
 
