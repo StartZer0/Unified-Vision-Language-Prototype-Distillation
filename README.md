@@ -179,7 +179,7 @@ Benchmark results on ImageNette and ImageIDC datasets. The best results are **bo
 | | 20 | 52.5 ± 0.9 | 58.9 ± 0.2 | 58.5 ± 0.4 | 59.1 ± 3.7 | 55.8 ± 0.2 | *60.0 ± 0.3* | **60.3 ± 0.6** |
 | | 50 | 68.1 ± 0.7 | 64.3 ± 0.6 | 69.1 ± 0.8 | 69.4 ± 1.4 | 69.1 ± 2.4 | **72.7 ± 0.4** | *72.3 ± 0.4* |
 
-### ImageNet-100 Results (IPC 10)
+### ImageWoof Results (IPC 10)
 
 Results on ImageWoof with IPC 10 (0.8% ratio) across different test architectures.
 
