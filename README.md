@@ -193,7 +193,7 @@ Results on ImageWoof with IPC 10 (0.8% ratio) across different test architecture
 ## Acknowledgments
 
 This work builds upon:
-- [VLCP: Vision-Language Category Prototype](https://github.com/StartZero0/Dataset-Distillation-via-Vision-Language-Category-Prototype)
+- [VLCP: Vision-Language Category Prototype](https://zou-yawen.github.io/DD_via_vision-language/)
 - [CLIP](https://github.com/openai/CLIP)
 - [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
 - [Diffusers](https://github.com/huggingface/diffusers)
